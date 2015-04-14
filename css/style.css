@@ -1,6 +1,31 @@
 body{
-	background-color: orange;
+	background-color: #e7e4c5;
+	color: black;
+	text-align: center;
+	background-image: url(http://shylas.github.io/images/night.jpg);
 }
-h1, p {
-	color: white;
+h1{
+	color:black;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
+#slogan{
+	font-size: 20px;
+}
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
