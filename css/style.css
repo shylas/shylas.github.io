@@ -2,7 +2,7 @@ body{
 	background-color: #e7e4c5;
 	color: black;
 	text-align: center;
-	background-image: url(http://shylas.github.io/images/night.jpg);
+
 }
 h1{
 	color:black;
@@ -17,7 +17,7 @@ h1{
 }
 
 .table {
-	display: table;   /* Allow the centering to work */
+	display: table;
 	margin: 0 auto;
 }
 
