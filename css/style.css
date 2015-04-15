@@ -1,14 +1,16 @@
 body{
+	font-family: 'Rokkitt', serif;
 	background-color: #e7e4c5;
 	color: black;
 	text-align: center;
-
+	background-image: url(http://shylas.github.io/images/night.jpg);
 }
 h1{
+	font-family: 'Mallanna', sans-serif;
 	color:black;
-	font-family: "Arial Black", Gadget, sans-serif;
 }
 #slogan{
+	font-family: 'Rokkitt', serif;
 	font-size: 20px;
 }
 
