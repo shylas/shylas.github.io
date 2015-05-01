@@ -36,12 +36,12 @@ float: left;
 
 .column2{
 	float: right;
-	padding: 2%
+	padding: 2%;
 }
 
 
 #who{
-	
+	float: left;
 	width:600px;
 	background: #6B7685;
   color: #fff;
