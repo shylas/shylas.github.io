@@ -1,0 +1,74 @@
+body{
+font-size: 18px;
+font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1{
+	display: inline-block;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+h2{
+font-size: 1.5em;
+
+}
+
+nav {
+	font-size: 1.5em;
+ 	float: right;
+} 
+
+nav a {	
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+#logocontact{
+float: left;	
+  font-size:14px;
+  width:240px;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.column2{
+	float: right;
+	padding: 2%
+}
+
+
+#who{
+	
+	width:600px;
+	background: #6B7685;
+  color: #fff;
+  overflow: auto;
+}
+
+#what {
+  float: right;
+  width: 600px;
+  background: #6B7685;
+  color: #fff;
+  overflow: auto;
+}
+
+
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+    clear: both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
