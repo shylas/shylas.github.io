@@ -6,14 +6,33 @@
      <link rel="stylesheet" type="text/css" href="reset.css">
      <link rel="stylesheet" type="text/css" href="style.css">
      <meta name="viewport" content="width=device-width">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+     <script src="responsiveslides.js"></script>
+
+     <script>
+     
+    $(function () {
+
+      // Slideshow 1
+      $("#slides1").responsiveSlides({
+        auto: false,
+        pagination: true,
+        nav: true,
+        fade: 500,
+        maxwidth: 800
+      });
+
+    });
+  
+     </script>
+
     
      <title>Colin Sulgrove Photography</title>
 
      </head>
+
      <body>
-     <div id="wrapper">
-         <div id="left-column">
-               <div id="logo">
+ <div id="logo">
                     <div id="logo1">
                          COLIN SULGROVE
                     </div>
@@ -21,6 +40,24 @@
                          P H O T O G R A P H Y
                     </div>
                </div>
+     <div id="wrapper">
+
+              
+
+               <div id="right-column">
+
+                   <ul id="slides1" class="rslides rslides1">
+                    <li><img src= http://lorempixel.com/700/350/abstract></li>
+                    <li><img src= http://lorempixel.com/700/350/nature></li>
+                    <li><img src= http://lorempixel.com/700/350/animals></li>
+                    </ul>
+                    
+
+               </div>
+
+
+               <div id="left-column">
+               
                <div id="nav">
                     <ul>
                          <li><a href="#">PORTFOLIOS</a></li>
@@ -45,10 +82,7 @@
                </div>
           </div>
 
-          <div id="right-column">
-               <img src="colinhomepageimage.png">
-          </div>
-
+          
      </div>
 
      </body>
