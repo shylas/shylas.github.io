@@ -1,62 +1,52 @@
 body {
 	padding-top: 60px;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 #wrapper {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 
 #left-column {
-	padding-left: 60px;
-	width: 180px;
+	padding-top: 200px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 23%;
 	float: left;
 }
 
 #right-column {
-	width: 600px;
-	padding-left: 60px;
-	float: left;
-	padding-top: 10px;
-	padding-bottom: 0px;
+	width: 73%;
+	padding: 1%;
+	float: right;
+	
 	margin-bottom: 0px;
 }
 
 #right-column img {
-	max-width: 760px;
+	max-width: 100%;
 	display: block;
 }
 
-#about-right-column {
-	width: 600px;
-	padding-left: 60px;
-	float: left;
-	padding-top: 10px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+#logo{
+	padding: 1%;
 }
-
-#about-right-column img {
-	max-width: 760px;
-}
-
 
 #logo1 {
 	font-family: Oswald, sans-serif;
 	font-weight: 400;
 	font-size: 1.6em;
 	color: #333333;
+
 }
 
 #logo2 {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: 400;
 	font-size: .8em;
-	padding-top: 2px;
-	padding-bottom: 280px;
-	padding-left: 20px;
+	
 	color: #514D57;
 }
 
@@ -113,20 +103,52 @@ footer {
 	padding-top: 30px;
 }
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
 @media only screen and (max-width: 768px){
 
-	#right-column{
-		padding-left: 30px;
-	}
+
 
 	#right-column img {
-		max-width: 75%;
-		float: left;
+		
+		float: none;
 		}
 
-	#logo2 {
-		padding-bottom: 20px;
-	}	
+	#left-column{
+		padding-top: 100px;
+	}
 
 	#nav ul {
 	font-size: .8em;
@@ -138,26 +160,27 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
-	body{
-		padding-top: 30px;
-	}
 
-	#right-column{
-		padding-left: 0%;
-	}
 
-	#right-column img {
-		padding-top: 40px;
-		max-width: 50%;
-		float: left;
+
+	#right-column {
+		float: none;
+		text-align: center;
 		}
 
-	#logo2 {
-		padding-bottom: 20px;
-	}	
+	#left-column{
+		padding: 1%;
+		position: absolute;
+	}
+
+
 
 	#nav ul {
 	font-size: .8em;
+	}
+
+	#portfolios {
+display: none;
 	}
 
 	}
